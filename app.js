@@ -29,7 +29,7 @@ if (prod) {
   app.use(morgan('combined'));
   app.use(
     cors({
-      origin: 'http://bunga23.com',
+      origin: '*',
       credentials: true,
     })
   );
