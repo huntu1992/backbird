@@ -55,7 +55,7 @@ app.use(
     cookie: {
       httpOnly: true,
       secure: false,
-      domain: prod && '..kr',
+      // domain: prod && '..kr',
     },
   })
 );
